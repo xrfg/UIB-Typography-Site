@@ -35,4 +35,27 @@ body {
   font-size: 1.8rem;
   line-height: 4rem;
   color: #5d6063;
+  background-color: rgb(37, 37, 37);
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.3em;
+  font-weight: 700;
+}
+
+header {
+  text-align: center;
+}
+
+.hero {
+  border: 0.2rem solid hotpink;
+  border-radius: 10%;
+  background-color: #6aff76;
+}
+
+nav li {
+  display: inline-block;
+  padding: 1em 0;
 }
