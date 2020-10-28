@@ -1,6 +1,6 @@
 # UIB-Tyopgraphy-Site
 
-## Sections / Topics includ:
+## Sections / Topics include:
 
 - Web vs System Fonts
 - Indentation
