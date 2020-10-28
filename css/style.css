@@ -31,11 +31,12 @@ html {
 
 body {
   font-family: "Roboto", sans-serif;
-  font-weight: 300;
+  /* font-weight: 300; */
   font-size: 1.8rem;
   line-height: 4rem;
-  color: #5d6063;
-  background-color: rgb(37, 37, 37);
+  color: white;
+  background-image: linear-gradient(rgb(34, 34, 34), khaki);
+  background-size: 100vw 100vh;
 }
 
 h1,
@@ -50,12 +51,71 @@ header {
 }
 
 .hero {
-  border: 0.2rem solid hotpink;
-  border-radius: 10%;
-  background-color: #6aff76;
+  background: linear-gradient(
+    0deg,
+    rgba(2, 0, 36, 0) 40%,
+    rgba(240, 230, 140, 0.7) 100%
+  );
+  padding: 6rem;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 4rem;
 }
 
 nav li {
   display: inline-block;
-  padding: 1em 0;
+  padding: 1em 1rem;
+}
+
+nav {
+  background: linear-gradient(
+    0deg,
+    rgba(240, 230, 140, 0.7) 1%,
+    rgba(2, 0, 36, 0) 80%
+  );
+}
+
+.selected {
+  color: rgb(93, 255, 166);
+}
+
+a:link,
+a:visited {
+  color: rgb(199, 199, 199);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(93, 255, 166);
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: overline;
+}
+
+.section {
+  max-width: 60rem;
+  margin: 4rem auto;
+  padding: 2rem;
+}
+
+.section--gray {
+  border: 1px solid rgb(93, 255, 166);
+  background-color: rgba(93, 255, 166, 0.068);
+}
+
+.section h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.section p {
+  margin-bottom: 1rem;
+}
+
+.section p:last-child {
+  margin-bottom: 0;
 }
