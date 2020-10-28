@@ -36,7 +36,7 @@ body {
   line-height: 4rem;
   color: white;
   background-image: linear-gradient(rgb(34, 34, 34), khaki);
-  background-size: 100vw 100vh;
+  background-size: 50rem;
 }
 
 h1,
@@ -113,7 +113,7 @@ a:active {
 }
 
 .section p {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .section p:last-child {
